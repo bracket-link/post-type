@@ -1,0 +1,20 @@
+{
+  "name": "moksha/posttype",
+  "description": "Post Type creating library for Moksha Design Studio",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Sachit Tandukar",
+      "email": "sachit@mokshastudio.com"
+    }
+  ],
+  "require": {
+    "icanboogie/inflector": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Moksha\\": "src"
+    }
+  }
+}
